@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.prenom{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+    background: blue;
+    border-radius: 15px;
+    padding: 5px;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nom{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #000;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    padding: 15px;
+    background: rgb(226, 226, 226);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    display: flex;
+    margin-top: -3%;
+    font-weight: lighter;
+}
+nav li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 18px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: Bahnschrift Condensed;
+}
+button{
+    margin-top: 15px;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    border-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px;
+    color: #ffff;
+    cursor: pointer;
+}
+.image0{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+.h2{
+    margin: 35px;
+    padding: 15px;
+    color: #000;
+    margin-top: 10.5%;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-size: 20px;
+    margin-left: 4%;
+    margin-top: -3%;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section1{
+    background-color: rgb(226, 226, 226);
+}
+.image1{
+    height: 250px;
+    width: 450px;
+    float: right;
+    margin-top: -25.5%;
+    margin-right: 5%;
+}
+.n1{
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffff;
+    border: white;
+    width: 50%;
+    padding: 15px;
+}
+.n2{
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffff;
+    border: white;
+    width: 50%;
+    padding: 15px;
+}
+.n3{
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffff;
+    border: white;
+    width: 50%;
+    padding: 15px;
+}
+.n4{
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffff;
+    border: white;
+    width: 50%;
+    padding: 15px;
+}
+.n7{
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #ffff;
+    border: white;
+    width: 50%;
+    padding: 15px;
+}
+.p1{
+    margin-left: 5.5%;
+    width: 80%;
+    padding: 10px;
+}
+.p2{
+    margin-left: 8%;
+    width: 80%;
+    padding: 10px;
+}
+.p3{
+    margin-left: 11.5%;
+    width: 80%;
+    padding: 10px;
+}
+.p4{
+    margin-left: 8.8%;
+    width: 80%;
+    padding: 10px;
+}
+.p5{
+    margin-left: 6%;
+    width: 80%;
+    padding: 10px;
+}
+.p6{
+    margin-left: 6%;
+    width: 80%;
+    padding: 10px;
+}
+.p7{
+    margin-left: 3.2%;
+    width: 80%;
+    padding: 10px;
+}
+.h3{
+    margin: 35px;
+    padding: 15px;
+    color: #000;
+    margin-top: 10.5%;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-accueil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 40px;
+}
+.section2{
+    background-color: rgb(226, 226, 226);
+}
+.Portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.paragraphe{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 3.5%;
+    margin-top: -15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.monprojet{
+    font-family: "Berlin Sans FB";
+    border: 2px solid black;
+    margin-right: 10%;
+    padding: 15px;
+    margin-top: 5%;
+}
+.imagesc{
+    width: 250px;
+    height: 200px;
+    border: 5px solid #ffff;
+}
+.mp{
+    text-decoration: none;
+    font-size: 25px;
+    color:#ffff;
+    background: #1574bb;
+    padding: 5px;
+    border: 5px solid #ffff;
+    margin-left: 17%;
+    border-radius: 5px;
+}
+.h4{
+    margin: 35px;
+    padding: 15px;
+    color: #000;
+    margin-top: 10.5%;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section3{
+    background-color: rgb(226, 226, 226);
+}
+.Formulaire{
+    width: 50%;
+    float: right;
+    margin: 25px;
+    padding: 10px;
+    margin-top: 3%;
+}
+.input1{
+    margin: 15px;
+    padding: 10px;
+    width: 42%;
+    background: rgb(226, 226, 226);
+    border: none;
+    border-radius: 15px;
+}
+.input2{
+    margin: 15px;
+    padding: 10px;
+    width: 42%;
+    background: rgb(226, 226, 226);
+    border: none;
+    border-radius: 15px;
+}
+.input3{
+    margin: 15px;
+    padding: 10px;
+    width: 42%;
+    background: rgb(226, 226, 226);
+    border: none;
+    border-radius: 15px;
+}
+.input4{
+    margin: 15px;
+    padding: 10px;
+    width: 42%;
+    background: rgb(226, 226, 226);
+    border: none;
+    border-radius: 15px;
+}
+.input5{
+    margin: 15px;
+    padding: 10px;
+    width: 92%;
+    height: 150px;
+    background: rgb(226, 226, 226);
+    border: none;
+    border-radius: 15px;
+}
+::placeholder{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image2{
+    float: left;
+    height: 350px;
+    width: 500px;
+    margin: 25px;
+    padding: 15px;
+    margin-top: 2.6%;
+}
+.envoyer{
+    margin-left: 35%;
+}
+.paragraphe2{
+    text-align: center;
+    margin-top: 34%;
+    background: rgb(226, 226, 226);
+    padding: 25px;
+    font-family: "berlin sans fb";
+}
+
+.social-media {
+    margin-top: 15px;
+}
+.social-media a {
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    margin-right: 10px;
+}
